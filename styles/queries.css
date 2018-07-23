@@ -1,0 +1,111 @@
+@media only screen and (max-height:470px){
+    .main-box{
+        position: absolute;
+        top: 55%;
+        left: 0%;
+        -webkit-transform: translate(-0%,-50%);
+        -ms-transform: translate(-0%,-50%);
+        transform: translate(-0%,-50%);
+    }
+    .main-box h1{
+        font-size:200%;
+    }
+}
+@media only screen and (max-width:1200px){
+    .about{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    
+    .about-img{
+        display: block;
+    }
+}
+@media only screen and (max-width:1017px){
+    .main-box{
+    left: 0%;
+    -webkit-transform: translate(-0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+    transform: translate(-0%,-50%);
+    }
+}
+@media only screen and (max-width:700px){
+    .about{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .contact{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .trees-showcase li{
+        width:50%;
+    }
+    .admin, .blog{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width:360px){
+    .trees-showcase li{
+        width:100%;
+    }
+}
+@media only screen and (max-width:600px){
+    .next1{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:420px){
+    h1{
+        font-size:200%;
+    }
+    .drop li{
+        margin:10px;
+    }
+    .main-box{
+        top: 55%;
+    }
+}
+@media only screen and (max-height:530px){
+    nav span{
+        float: left;
+    }
+    nav span a, .title:after{
+        padding-left:20px;
+    }
+    .small_screen_nav{
+        display:block;
+        float:right;
+    }
+    .drop{
+        display:none;
+    }
+    *{
+        box-shadow:0 0 0 0 rgba(15,38,22,0.7) !important;
+    }
+}
+@media only screen and (min-height:1081px){
+    *{
+        font-size:110%;
+    }
+}
+@media only screen and (min-height:1601px){
+    *{
+        font-size:125%;
+    }
+}
+@media only screen and (min-height:2001px){
+    *{
+        font-size:115%;
+    }
+}
+@media only screen and (min-height:2201px){
+    *{
+        font-size:125%;
+    }
+}
+
+@media only screen and (max-width:1700px){
+    
+}

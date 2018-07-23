@@ -1,0 +1,20 @@
+<?php
+
+$connection = mysql_connect("elvencreations.com.mysql", "elvencreations_", "aliabbas123");
+mysql_select_db("elvencreations_", $connection);
+
+session_start();
+
+$user_check=$_SESSION['admin_login'];
+
+$sql=mysql_query("SELECT username FROM users WHERE username='$user_check'", $connection);
+
+$row = mysql_fetch_array($sql);
+
+$login_session =$row['username'];
+
+if(!isset($login_session)){
+    mysql_close($connection);
+    header('Location: login_first.php');
+}
+?>
